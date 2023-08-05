@@ -10,7 +10,7 @@ var indexRouter = require("./routes/index");
 var app = express();
 app.use(
   cors({
-    allowedOrigin: ["localhost:3001"],
+    allowedOrigin: ["localhost:3001", "ivan131013.github.io", "localhost:3000"],
   })
 );
 
